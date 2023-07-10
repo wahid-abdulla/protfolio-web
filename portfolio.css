@@ -169,9 +169,104 @@ font-weight: 400;
 
 }
 .resume-container{
+    
     display: flex;
-    flex-direction: column-reverse;
-    gap: 50px;
+}
+.resume-item-institute{
+    
+
+color:  #757575;
+font-size: 16px;
+font-weight: 400;
+
+}
+.resume-item-title{
+    color:  #474747;
+    font-size: 25px;
+    font-weight: 700;
+   }
+.resume-descrition{
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.resume-item{
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.cv{
+    color: rgb(253, 253, 252);
+    border: none;
+    background-color: #FD6E0A;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+/*footer secton*/
+
+footer{
+    color:  #181818;
+    font-size: 35px;
+    font-weight: 700;
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
     justify-content: space-around;
+    gap: 100px;
+    margin-top: 10px;
+}
+.section{
+color:  #474747;
+font-weight: 400;
+line-height: 28px;
+font-size: 16px;
+}
+.footer-colum{
+    width: 50%;
+}
+.contact-from input{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+background:  #FFF;
+border: none;
+width: 100%;
+
+
+}
+#text{
+    padding: 18px 35px;
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+     background:  #FFF;
+     border: none;
+     font-family: open sans;
+    width: 100%;
+    }
+   
+
+#sub{
+    color:  #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+}
+.social-icon a{
+    margin-right: 25px;
+    background-color: #FFF;
 
 }
