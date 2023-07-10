@@ -62,9 +62,11 @@ nav a{
 /*header related section*/
 .header{
     background-color:#FFF8F3;
-    background-image: url('resourse/images/header_bg.png');
+    background-image: url('resourse/images/header_bg.png'), url('resourse/images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
+    
+
 }
 
 .banner{
@@ -267,6 +269,6 @@ width: 100%;
 }
 .social-icon a{
     margin-right: 25px;
-    background-color: #FFF;
+   
 
 }
